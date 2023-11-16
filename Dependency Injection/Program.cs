@@ -8,7 +8,9 @@ class program
         Account a = new Account(ca);
         a.PrintAccounts();
 
-       
+        IAccount sa = new SavingAccount();
+        Account a1 = new Account(sa);
+        a1.PrintAccounts();
 
     }
 }
