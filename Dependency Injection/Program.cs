@@ -12,5 +12,12 @@ class program
         Account a1 = new Account(sa);
         a1.PrintAccounts();
 
+
+        Account1 cam = new Account1();
+        cam.PrintAccounts1(new CurrentAccount1());
+
+        Account1 sam = new Account1();
+        cam.PrintAccounts1(new SavingAccount1());
+
     }
 }
